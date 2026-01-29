@@ -4,8 +4,8 @@
 #include <stdint.h>
 
 #define ALIGNMENT 		8u
-#define ALIGN_UP(x,a)	(((x)+((a)-1)) & ~((a)-1))
 #define MIN_PAYLOAD 	ALIGNMENT
+#define ALIGN_UP(x,a)	(((x)+((a)-1)) & ~((a)-1))
 
 //sbrk deprecated; only unix like systems
 
