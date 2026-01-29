@@ -8,9 +8,7 @@
 - API completeness (realloc,calloc,etc)
 - Header‑Magic/Canary, Double-Free, Safe unlink, Overflow guards
 - Thread safety (e.g. thread local block cache)
-
-other:
-	- increase standard payload (e.g. 16B)
-	- min_split to prevent fragmentation
+- increase standard payload (e.g. 16B)
+- min_split to prevent fragmentation
 
 
