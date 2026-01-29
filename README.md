@@ -1,6 +1,6 @@
 ## Simple custom implementation of C's malloc().
 
-# Improvements needed to make it usable:
+### Improvements needed to make it usable:
 
 - Change sbrk to mmap (Unix) / VirtualAlloc (Windows)
 - Coalescing in both directions (currently only next block)
